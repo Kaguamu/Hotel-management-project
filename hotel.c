@@ -14,7 +14,6 @@ typedef struct {
 Room rooms[MAX_ROOMS];
 int room_count = 0;
 
-// Function prototypes
 void load_rooms();
 void showAvailableRooms();
 void make_reservation();
